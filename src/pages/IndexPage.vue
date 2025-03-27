@@ -1,13 +1,16 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
-  </q-page>
+  <q-page id="hero-section" class="section"> </q-page>
+  <q-page id="about-section" class="section"></q-page>
+  <q-page id="portfolio-section" class="section"></q-page>
+  <q-page id="contact-section" class="section"></q-page>
 </template>
 
 <script setup>
 //
 </script>
+
+<style scoped lang="scss">
+.section {
+  border: 1px solid black;
+}
+</style>
